@@ -33,6 +33,7 @@ Users can add, view, and delete notes with a clean and responsive UI.
 -Navigate to the backend folder:
 ```bash
 cd backend
+```
 Install backend dependencies:
 npm install
 Create a .env file in the backend folder with:
