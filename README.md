@@ -34,17 +34,18 @@ Users can add, view, and delete notes with a clean and responsive UI.
 ```bash
 cd backend
 ```
-Install backend dependencies:
+-Install backend dependencies:
+```bash
 npm install
-Create a .env file in the backend folder with:
-PG_USER=
-PG_HOST=
-PG_DATABASE=
-PG_PASSWORD=
-PG_PORT=
-PORT=
-Start the backend server:
+```
+-Create a .env file in the backend folder with:
+```bash
+touch .env
+```
+-Start the backend server:
+```bash
 npm start
+```
 
 ### 1️⃣ Clone the repository
 ```bash
