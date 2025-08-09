@@ -29,8 +29,22 @@ Users can add, view, and delete notes with a clean and responsive UI.
 ---
 
 ## ⚙️ Installation & Setup
+Backend:
+Navigate to the backend folder:
+cd backend
+Install backend dependencies:
+npm install
+Create a .env file in the backend folder with:
+PG_USER=
+PG_HOST=
+PG_DATABASE=
+PG_PASSWORD=
+PG_PORT=
+PORT=
+Start the backend server:
+npm start
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Abdullah73725/Notes-Keeper-App.git
+cd Notes-Keeper-App
