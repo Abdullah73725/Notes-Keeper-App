@@ -38,13 +38,26 @@ cd backend
 ```bash
 npm install
 ```
--Create a .env file in the backend folder with:
+-Create a .env file in the backend folder:
 ```bash
 touch .env
 ```
 -Start the backend server:
 ```bash
-npm start
+nodemon index.js
+```
+**Frontend:**
+-Open a new terminal and go to the frontend folder:
+```bash
+cd frontend
+```
+-Install frontend dependencies:
+```bash
+npm install
+```
+-Start the frontend:
+```bash
+npm run dev
 ```
 
 ### 1️⃣ Clone the repository
